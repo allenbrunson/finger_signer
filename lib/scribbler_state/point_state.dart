@@ -39,6 +39,10 @@ class PointState implements ScribblerState
         list.add(offset);
     }
 
+    @override void panStop() {
+        // nothing to do
+    }
+
     @override void panUpdate(Offset offset) {
         list.add(offset);
     }

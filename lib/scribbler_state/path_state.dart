@@ -34,6 +34,10 @@ class PathState implements ScribblerState
         this.path.moveTo(offset.dx, offset.dy);
     }
 
+    @override void panStop() {
+        // nothing to do
+    }
+
     @override void panUpdate(Offset offset) {
         this.path.lineTo(offset.dx, offset.dy);
     }

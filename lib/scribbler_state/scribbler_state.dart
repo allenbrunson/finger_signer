@@ -15,6 +15,7 @@ abstract class ScribblerState
     void clear();
     void draw(Canvas canvas, Size size, Color color);
     void panStart(Offset offset);
+    void panStop();
     void panUpdate(Offset offset);
 }
 

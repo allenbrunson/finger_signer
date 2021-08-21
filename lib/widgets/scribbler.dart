@@ -82,6 +82,7 @@ class _ScribblerState extends State<Scribbler>
     }
 
     void _panStop(DragEndDetails details) {
+        this.widget.scribblerState.panStop();
         this._stateUpdate();
     }
 
