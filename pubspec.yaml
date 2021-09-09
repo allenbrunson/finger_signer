@@ -1,5 +1,4 @@
 name: finger_signer
-author: allen brunson
 description: finger-signing demonstration
 version: 1.0.0
 publish_to: "none"
