@@ -170,6 +170,7 @@ linter:
     unnecessary_await_in_return: true
     unnecessary_brace_in_string_interps: false
     unnecessary_const: true
+    unnecessary_constructor_name: true
     unnecessary_final: false
     unnecessary_getters_setters: true
     unnecessary_lambdas: true
