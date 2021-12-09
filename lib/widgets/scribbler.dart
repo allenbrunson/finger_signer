@@ -93,7 +93,7 @@ class _ScribblerState extends State<Scribbler>
     }
 
     bool _ready() {
-        return this.mounted && (this.context is BuildContext);
+        return this.mounted;
     }
 
     void _stateUpdate() {
