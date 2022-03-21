@@ -12,3 +12,6 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
+
+dev_dependencies:
+  dart_code_metrics: ^4.13.0  # https://pub.dev/packages/dart_code_metrics
