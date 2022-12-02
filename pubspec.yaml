@@ -14,4 +14,4 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  dart_code_metrics: 5.0.1
+  dart_code_metrics: 5.1.0
