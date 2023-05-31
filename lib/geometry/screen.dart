@@ -1,5 +1,6 @@
 // screen.dart -- screen functions
 // by allen brunson  december 8 2018
+// ignore_for_file: deprecated_member_use
 
 import "package:finger_signer/finger_signer.dart";
 

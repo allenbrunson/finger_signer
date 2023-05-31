@@ -18,7 +18,7 @@ class Scribbler extends StatefulWidget
 
     // constructor
 
-    const Scribbler({required this.scribblerState, Key? key}): super(key: key);
+    const Scribbler({required this.scribblerState, super.key});
 
     // public instance methods
 
