@@ -1,6 +1,5 @@
-# finger_signer
+# finger signer
 by allen brunson
-
 
 Flutter finger-signing widget example.
 
