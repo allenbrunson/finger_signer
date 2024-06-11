@@ -8,9 +8,6 @@
 /*                                                                            */
 /******************************************************************************/
 
-// preamble
-library finger_signer;
-
 // dart packages
 export "dart:io";
 export "dart:math";
