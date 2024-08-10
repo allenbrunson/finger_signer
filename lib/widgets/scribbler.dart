@@ -149,7 +149,7 @@ class _ScribblerState extends State<Scribbler>
 
     Widget _buttonBar() {
         final colr = Theme.of(this.context).colorScheme.surface;
-        final view = ButtonBar(children:this._buttonBarChildren());
+        final view = OverflowBar(children:this._buttonBarChildren());
         final sbox = SizedBox.fromSize(child:view, size:this._buttonBarSize());
         return backgroundColorWidget(sbox, colr);
     }
