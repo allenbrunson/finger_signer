@@ -194,7 +194,7 @@ class _ScribblerState extends State<Scribbler>
     }
 
     Widget _scribbler() {
-        final colr = Theme.of(this.context).dialogBackgroundColor;
+        const colr = Colors.white;
         final view = this._gesture(this._painter());
         return backgroundColorWidget(view, colr);
     }
