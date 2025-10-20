@@ -220,7 +220,7 @@ Future<File?> showGoodScribbler(BuildContext? context) async {
 Future<void> showImageFile(BuildContext context, File? imageFile) async {
     if (await fileHasLengthAsync(imageFile)) {
         final view = imageFileDialog(context, "Scribble Image", imageFile);
-        await showAlertWidget(context, view);
+        await showAlertWidget<int>(context, view);
     }
     await deleteFileAsync(imageFile);
 }
