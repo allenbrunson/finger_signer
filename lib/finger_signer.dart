@@ -1,10 +1,10 @@
-// finger_signer.dart -- finger_signer master export module
+// finger_signer.dart -- finger_signer library master module
 // by allen brunson  august 17 2021
 
 
 /******************************************************************************/
 /*                                                                            */
-/***  finger_signer master export module                                    ***/
+/***  finger_signer library master module                                   ***/
 /*                                                                            */
 /******************************************************************************/
 
