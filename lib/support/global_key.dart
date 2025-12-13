@@ -1,0 +1,32 @@
+// global_key.dart -- GlobalKey utility functions
+// by allen brunson  december 9 2023
+
+import "package:finger_signer/finger_signer.dart";
+
+
+/******************************************************************************/
+/*                                                                            */
+/***  GlobalKey utility functions                                           ***/
+/*                                                                            */
+/******************************************************************************/
+
+Offset? globalKeyLocalOffset(GlobalKey? globalKey, Offset global) {
+    try {
+        final data = globalKey?.currentContext?.findRenderObject();
+        if (data == null) return null;
+        final RenderBox rbox = (data as RenderBox);
+        return rbox.globalToLocal(global);
+    }
+    catch (e) {
+        return null;
+    }
+}
+
+Size? globalKeySize(GlobalKey? globalKey) {
+    try {
+        return globalKey?.currentContext?.size;
+    }
+    catch (e) {
+        return null;
+    }
+}

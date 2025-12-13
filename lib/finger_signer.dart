@@ -38,6 +38,7 @@ export "support/app_bar.dart";
 export "support/dialog_functions.dart";
 export "support/file_functions.dart";
 export "support/file_image_dialog.dart";
+export "support/global_key.dart";
 export "support/graphics.dart";
 export "support/paint_functions.dart";
 export "support/scribble_painter.dart";
