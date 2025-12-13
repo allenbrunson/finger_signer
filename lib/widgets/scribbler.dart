@@ -103,7 +103,7 @@ class _ScribblerState extends State<Scribbler>
     Future<Image> _image() async {
         final prec = PictureRecorder();
         final canv = Canvas(prec);
-        final size = this._globalKey!.currentContext!.size!;
+        final size = sanitizeSize(globalKeySize(this._globalKey));
         canv.drawRect(rectFromSize(size), paintFill(Colors.white));
         this.widget.scribblerState.draw(canv, size, Colors.black);
         return pictureRecorderImage(prec, size);
