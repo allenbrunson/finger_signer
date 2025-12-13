@@ -23,6 +23,7 @@ export "package:flutter/material.dart" hide Image;
 
 // geometry
 export "geometry/mutable_size.dart";
+export "geometry/offset.dart";
 export "geometry/rect.dart";
 export "geometry/screen.dart";
 export "geometry/size.dart";

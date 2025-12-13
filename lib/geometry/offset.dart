@@ -1,20 +1,16 @@
-// size.dart -- size functions
-// by allen brunson  december 11 2018
+// offset.dart -- offset functions
+// by allen brunson  december 13 2025
 
 import "package:finger_signer/finger_signer.dart";
 
 
 /******************************************************************************/
 /*                                                                            */
-/***  Size functions                                                        ***/
+/***  Offset functions                                                      ***/
 /*                                                                            */
 /******************************************************************************/
 
-Size sanitizeSize(dynamic size) {
-    if (size is Size) return size;
-    return Size.zero;
-}
-
-Size sizeFloor(Size size) {
-    return Size(size.width.floorToDouble(), size.height.floorToDouble());
+Offset sanitizeOffset(dynamic offset) {
+    if (offset is Offset) return offset;
+    return Offset.zero;
 }

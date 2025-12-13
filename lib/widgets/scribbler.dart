@@ -71,9 +71,7 @@ class _ScribblerState extends State<Scribbler>
     // private state methods
 
     Offset _offset(Offset global) {
-        final data = this._globalKey!.currentContext!.findRenderObject();
-        final RenderBox rbox = (data as RenderBox);
-        return rbox.globalToLocal(global);
+        return sanitizeOffset(globalKeyLocalOffset(this._globalKey, global));
     }
 
     void _panStart(DragStartDetails details) {
