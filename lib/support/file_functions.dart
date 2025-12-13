@@ -34,7 +34,8 @@ Future<bool> fileHasLengthAsync(File? file) async {
 }
 
 Future<int> fileLengthAsync(File? file) async {
-    if (await fileExistsAsync(file)) return file!.length();
+    if (file == null) return 0;
+    if (await fileExistsAsync(file)) return file.length();
     return 0;
 }
 
