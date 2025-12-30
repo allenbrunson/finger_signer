@@ -41,6 +41,7 @@ export "support/file_functions.dart";
 export "support/file_image_dialog.dart";
 export "support/global_key.dart";
 export "support/graphics.dart";
+export "support/object.dart";
 export "support/paint_functions.dart";
 export "support/scribble_painter.dart";
 export "support/widget_wrappers.dart";
